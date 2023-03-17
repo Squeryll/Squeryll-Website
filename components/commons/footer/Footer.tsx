@@ -1,6 +1,9 @@
-import { FooterProps } from "./Footer.types";
-import "./styles/Footer.module.scss";
+import { FC } from "react";
+import { FooterProps as Props } from "./Footer.types";
+import styles from "./styles/Footer.module.scss";
 
-export default function Footer({}: FooterProps) {
+const Footer: FC<Props> = ({}) => {
   return <div>Footer here</div>;
-}
+};
+
+export default Footer;
