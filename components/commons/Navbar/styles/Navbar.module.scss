@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+.navbar{
+    background-color:black;
+    top:0;
+    left:0;
+    width:100%;
+    position:fixed;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar ul.left{
+    color:white;
+    float:left;
+    margin-left: 40px;
+}
+
+.navbar button{
+    background-color: #EBAA15;
+    text-decoration: none;
+    float:right;
+    text-align: center;
+    border-radius: 25px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 100px;
+    margin-top: -3px;
+    color:#010200;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border:none;
+}
+
+.navbar a{
+    padding-left: 30px;
+    text-decoration:none;
+    color:white;
+}
+
+.navbar a:first-child{
+    padding-left: 300px;
+}
+
+.navbar a:nth-last-child(2){
+    padding-left:300px;
+    padding-right: 30px;
+}
+
+.logo{
+    position: relative;
+    float:left;
+    position: absolute;
+    top:10px;
+    margin-left: 50px;
+}
