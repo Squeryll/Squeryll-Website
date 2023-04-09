@@ -1,7 +1,7 @@
 import { FC } from "react";
 import Image from "next/image";
 import { FooterProps as Props } from "./Footer.types";
-import Squirrel from "./assets/Squirrel.png";
+import Squeryll from "./assets/Squeryll.png";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
@@ -14,7 +14,7 @@ const Footer: FC<Props> = ({}) => {
         <div>
           <ul>
             <li>
-              <Image src={Squirrel} alt="" />
+              <Image src={Squeryll} alt="" />
               <span className={styles.main_styling}>Squeryll</span>
             </li>
           </ul>
